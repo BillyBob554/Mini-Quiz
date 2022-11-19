@@ -88,16 +88,13 @@ if answer == "Yes":
   score = score + 1
   
 else:
-  print("Are You Sure?")
-
-#Question 10
-answer = input(" ")
-if answer == "No":
-  print("Thats What I Thought.")
-  score = score + 1
-  
-else:
-  print("Im Just Going To Assume That You're Joking.")
+  #Question 10
+  answer = input("Are You Sure? ")
+  if answer == "No":
+    print("That's What I Thought.")
+    score = score + 1
+  else:
+    print("I'm Just Going To Assume That You're Joking.")
 
 #Score Counter
 print(score,"/ 10")
